@@ -143,7 +143,7 @@ class part1 extends POE
           if(Login)
           {
             //declaring message here otherwise names will not show
-            trueMessage = "Welcome "+ name + lastName + ", it is great to see you again!";  
+            trueMessage = "Welcome "+ name + " " + lastName + ", it is great to see you again!";  
             JOptionPane.showMessageDialog(null, trueMessage);
             break;
           }
